@@ -1,3 +1,9 @@
 # mustafa.kurt-ogr.deu.edu.tr
-web service deprem uygulaması
-uygulama için retrofit  kutuphanesi implemente edilmelidir.
+## Özet
+Kandilli rasathanesi verilerini kullanarak Türkiye' de olan depremleri görebileceğiniz basit bir çalışmadır.
+## Uygulamada
+Retrofit kütüphanesi ile  verileri get işlemi yapıyorum.
+## İmplementation
+    implementation "com.squareup.retrofit2:retrofit:$retrofitVersion"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofitVersion"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
